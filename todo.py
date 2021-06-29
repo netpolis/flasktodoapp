@@ -5,7 +5,7 @@ from werkzeug.exceptions import RequestURITooLarge
 
 app=Flask(__name__)
 #app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///C:\\SQLite\\todo.db'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///D:\\polis odası\\YAŞAR\\AAA Kodlama\\Kodlama\\Flask\\TODOApp\\todo.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///D:\\???????\\todo.db'
 
 db=SQLAlchemy(app)
 
